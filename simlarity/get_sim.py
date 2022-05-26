@@ -27,18 +27,10 @@ def main(pickle_file, model1_in, model1_out, model2_in, model2_out):
     model2_in_index = model2_block_list.index(model2_in)
     model2_out_index = model2_block_list.index(model2_out)
 
-    # sim_map_norm = sim_map / np.max(sim_map)
 
     sim = sim_map[model1_in_index, model2_in_index] + \
         sim_map[model1_out_index, model2_out_index]
 
-    # sim_norm = sim_map_norm[model1_in_index, model2_in_index] + \
-    #     sim_map_norm[model1_out_index, model2_out_index]
-
-    # print(model1, model1_in, model1_out)
-    # print(model2_in, model2_out, model2)
-    # print(sim)
-    # print(sim_norm)
     return sim
 
 

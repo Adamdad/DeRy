@@ -1,6 +1,6 @@
 for data in airplane caltech101 cars caltech101 cifar10 cifar100 dtd cub flower pets
 do
-CUDA_VISIBLE_DEVICES=1 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py \
+CUDA_VISIBLE_DEVICES=1 PYTHONPATH="$PWD" python simlarity/zeroshot_reassembly.py \
 --path simlarity/out/assignment/assignment_hybrid_4.pkl \
 --zero_proxy naswot \
 --num_batch 5 \
@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=1 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py
 --flop_C 3.0 \
 --data_config configs/_base_/datasets/"$data"_bs64_2.py
 
-CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py \
+CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_reassembly.py \
 --path simlarity/out/assignment/assignment_hybrid_4.pkl \
 --zero_proxy naswot \
 --num_batch 5 \
@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py
 --flop_C 6.0 \
 --data_config configs/_base_/datasets/"$data"_bs64_2.py
 
-CUDA_VISIBLE_DEVICES=1 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py \
+CUDA_VISIBLE_DEVICES=1 PYTHONPATH="$PWD" python simlarity/zeroshot_reassembly.py \
 --path simlarity/out/assignment/assignment_hybrid_4.pkl \
 --zero_proxy naswot \
 --num_batch 5 \
@@ -32,7 +32,7 @@ CUDA_VISIBLE_DEVICES=1 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py
 --minflop_C 3.0 \
 --data_config configs/_base_/datasets/"$data"_bs64_2.py
 
-CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py \
+CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_reassembly.py \
 --path simlarity/out/assignment/assignment_hybrid_4.pkl \
 --zero_proxy naswot \
 --num_batch 5 \
@@ -44,7 +44,7 @@ CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py
 --minflop_C 5.0 \
 --data_config configs/_base_/datasets/"$data"_bs64_2.py
 
-CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_nas_hybird.py \
+CUDA_VISIBLE_DEVICES=2 PYTHONPATH="$PWD" python simlarity/zeroshot_reassembly.py \
 --path simlarity/out/assignment/assignment_hybrid_4.pkl \
 --zero_proxy naswot \
 --num_batch 5 \
