@@ -1,8 +1,6 @@
 from .cca_torch import cca_torch
 from .cka_torch import cka_linear_torch, cka_rbf_torch
 from .lr_torch import lr_torch
-from .cca import cca
-from .cka import cka_linear, cka_rbf
 import mmcv
 import torch
 import numpy as np
