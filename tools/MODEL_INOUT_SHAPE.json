@@ -1,0 +1,4228 @@
+{
+  "resnet50": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        256,
+        56,
+        56
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        512,
+        28,
+        28
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        256,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        512,
+        28,
+        28
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    }
+  },
+  "swsl_resnext50_32x4d": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        256,
+        56,
+        56
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        512,
+        28,
+        28
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        256,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        512,
+        28,
+        28
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    }
+  },
+  "resnet50mocov2": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        256,
+        56,
+        56
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        512,
+        28,
+        28
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        256,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        512,
+        28,
+        28
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    }
+  },
+  "regnet_y_8gf": {
+    "in_size": {
+      "trunk_output.block1.block1-0": [
+        32,
+        112,
+        112
+      ],
+      "trunk_output.block1.block1-1": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-1": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-1": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        896,
+        14,
+        14
+      ]
+    },
+    "out_size": {
+      "trunk_output.block1.block1-0": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block1.block1-1": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-1": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-1": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        896,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        2016,
+        7,
+        7
+      ]
+    }
+  },
+  "regnet_y_1_6gf": {
+    "in_size": {
+      "trunk_output.block1.block1-0": [
+        32,
+        112,
+        112
+      ],
+      "trunk_output.block1.block1-1": [
+        48,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        48,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-1": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-4": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-5": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-1": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-11": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-12": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-13": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-14": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-15": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-16": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-1": [
+        888,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "trunk_output.block1.block1-0": [
+        48,
+        56,
+        56
+      ],
+      "trunk_output.block1.block1-1": [
+        48,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-1": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-4": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-5": [
+        120,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-1": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-11": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-12": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-13": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-14": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-15": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-16": [
+        336,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        888,
+        7,
+        7
+      ],
+      "trunk_output.block4.block4-1": [
+        888,
+        7,
+        7
+      ]
+    }
+  },
+  "regnet_y_3_2gf": {
+    "in_size": {
+      "trunk_output.block1.block1-0": [
+        32,
+        112,
+        112
+      ],
+      "trunk_output.block1.block1-1": [
+        72,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        72,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-1": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-4": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-1": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-11": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-12": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        576,
+        14,
+        14
+      ]
+    },
+    "out_size": {
+      "trunk_output.block1.block1-0": [
+        72,
+        56,
+        56
+      ],
+      "trunk_output.block1.block1-1": [
+        72,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-1": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-4": [
+        216,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-1": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-11": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-12": [
+        576,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        1512,
+        7,
+        7
+      ]
+    }
+  },
+  "mobilenetv3_large_100": {
+    "in_size": {
+      "blocks.0.0": [
+        16,
+        112,
+        112
+      ],
+      "blocks.1.0": [
+        16,
+        112,
+        112
+      ],
+      "blocks.1.1": [
+        24,
+        56,
+        56
+      ],
+      "blocks.2.0": [
+        24,
+        56,
+        56
+      ],
+      "blocks.2.1": [
+        40,
+        28,
+        28
+      ],
+      "blocks.2.2": [
+        40,
+        28,
+        28
+      ],
+      "blocks.3.0": [
+        40,
+        28,
+        28
+      ],
+      "blocks.3.1": [
+        80,
+        14,
+        14
+      ],
+      "blocks.3.2": [
+        80,
+        14,
+        14
+      ],
+      "blocks.3.3": [
+        80,
+        14,
+        14
+      ],
+      "blocks.4.0": [
+        80,
+        14,
+        14
+      ],
+      "blocks.4.1": [
+        112,
+        14,
+        14
+      ],
+      "blocks.5.0": [
+        112,
+        14,
+        14
+      ],
+      "blocks.5.1": [
+        160,
+        7,
+        7
+      ],
+      "blocks.5.2": [
+        160,
+        7,
+        7
+      ],
+      "blocks.6.0": [
+        160,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "blocks.0.0": [
+        16,
+        112,
+        112
+      ],
+      "blocks.1.0": [
+        24,
+        56,
+        56
+      ],
+      "blocks.1.1": [
+        24,
+        56,
+        56
+      ],
+      "blocks.2.0": [
+        40,
+        28,
+        28
+      ],
+      "blocks.2.1": [
+        40,
+        28,
+        28
+      ],
+      "blocks.2.2": [
+        40,
+        28,
+        28
+      ],
+      "blocks.3.0": [
+        80,
+        14,
+        14
+      ],
+      "blocks.3.1": [
+        80,
+        14,
+        14
+      ],
+      "blocks.3.2": [
+        80,
+        14,
+        14
+      ],
+      "blocks.3.3": [
+        80,
+        14,
+        14
+      ],
+      "blocks.4.0": [
+        112,
+        14,
+        14
+      ],
+      "blocks.4.1": [
+        112,
+        14,
+        14
+      ],
+      "blocks.5.0": [
+        160,
+        7,
+        7
+      ],
+      "blocks.5.1": [
+        160,
+        7,
+        7
+      ],
+      "blocks.5.2": [
+        160,
+        7,
+        7
+      ],
+      "blocks.6.0": [
+        960,
+        7,
+        7
+      ]
+    }
+  },
+  "regnet_y_16gf": {
+    "in_size": {
+      "trunk_output.block1.block1-0": [
+        32,
+        112,
+        112
+      ],
+      "trunk_output.block1.block1-1": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-1": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-1": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        1232,
+        14,
+        14
+      ]
+    },
+    "out_size": {
+      "trunk_output.block1.block1-0": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block1.block1-1": [
+        224,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-1": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        448,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-1": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        1232,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        3024,
+        7,
+        7
+      ]
+    }
+  },
+  "resnet50byol": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        256,
+        56,
+        56
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        512,
+        28,
+        28
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        256,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        512,
+        28,
+        28
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    }
+  },
+  "resnet50simclr": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        256,
+        56,
+        56
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        512,
+        28,
+        28
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        256,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        512,
+        28,
+        28
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    }
+  },
+  "vit_tiny_patch16_224": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        192
+      ],
+      "blocks.1": [
+        197,
+        192
+      ],
+      "blocks.2": [
+        197,
+        192
+      ],
+      "blocks.3": [
+        197,
+        192
+      ],
+      "blocks.4": [
+        197,
+        192
+      ],
+      "blocks.5": [
+        197,
+        192
+      ],
+      "blocks.6": [
+        197,
+        192
+      ],
+      "blocks.7": [
+        197,
+        192
+      ],
+      "blocks.8": [
+        197,
+        192
+      ],
+      "blocks.9": [
+        197,
+        192
+      ],
+      "blocks.10": [
+        197,
+        192
+      ],
+      "blocks.11": [
+        197,
+        192
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        192
+      ],
+      "blocks.1": [
+        197,
+        192
+      ],
+      "blocks.2": [
+        197,
+        192
+      ],
+      "blocks.3": [
+        197,
+        192
+      ],
+      "blocks.4": [
+        197,
+        192
+      ],
+      "blocks.5": [
+        197,
+        192
+      ],
+      "blocks.6": [
+        197,
+        192
+      ],
+      "blocks.7": [
+        197,
+        192
+      ],
+      "blocks.8": [
+        197,
+        192
+      ],
+      "blocks.9": [
+        197,
+        192
+      ],
+      "blocks.10": [
+        197,
+        192
+      ],
+      "blocks.11": [
+        197,
+        192
+      ]
+    }
+  },
+  "vit_small_patch16_224": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        384
+      ],
+      "blocks.1": [
+        197,
+        384
+      ],
+      "blocks.2": [
+        197,
+        384
+      ],
+      "blocks.3": [
+        197,
+        384
+      ],
+      "blocks.4": [
+        197,
+        384
+      ],
+      "blocks.5": [
+        197,
+        384
+      ],
+      "blocks.6": [
+        197,
+        384
+      ],
+      "blocks.7": [
+        197,
+        384
+      ],
+      "blocks.8": [
+        197,
+        384
+      ],
+      "blocks.9": [
+        197,
+        384
+      ],
+      "blocks.10": [
+        197,
+        384
+      ],
+      "blocks.11": [
+        197,
+        384
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        384
+      ],
+      "blocks.1": [
+        197,
+        384
+      ],
+      "blocks.2": [
+        197,
+        384
+      ],
+      "blocks.3": [
+        197,
+        384
+      ],
+      "blocks.4": [
+        197,
+        384
+      ],
+      "blocks.5": [
+        197,
+        384
+      ],
+      "blocks.6": [
+        197,
+        384
+      ],
+      "blocks.7": [
+        197,
+        384
+      ],
+      "blocks.8": [
+        197,
+        384
+      ],
+      "blocks.9": [
+        197,
+        384
+      ],
+      "blocks.10": [
+        197,
+        384
+      ],
+      "blocks.11": [
+        197,
+        384
+      ]
+    }
+  },
+  "vit_base_patch16_224": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        768
+      ],
+      "blocks.1": [
+        197,
+        768
+      ],
+      "blocks.2": [
+        197,
+        768
+      ],
+      "blocks.3": [
+        197,
+        768
+      ],
+      "blocks.4": [
+        197,
+        768
+      ],
+      "blocks.5": [
+        197,
+        768
+      ],
+      "blocks.6": [
+        197,
+        768
+      ],
+      "blocks.7": [
+        197,
+        768
+      ],
+      "blocks.8": [
+        197,
+        768
+      ],
+      "blocks.9": [
+        197,
+        768
+      ],
+      "blocks.10": [
+        197,
+        768
+      ],
+      "blocks.11": [
+        197,
+        768
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        768
+      ],
+      "blocks.1": [
+        197,
+        768
+      ],
+      "blocks.2": [
+        197,
+        768
+      ],
+      "blocks.3": [
+        197,
+        768
+      ],
+      "blocks.4": [
+        197,
+        768
+      ],
+      "blocks.5": [
+        197,
+        768
+      ],
+      "blocks.6": [
+        197,
+        768
+      ],
+      "blocks.7": [
+        197,
+        768
+      ],
+      "blocks.8": [
+        197,
+        768
+      ],
+      "blocks.9": [
+        197,
+        768
+      ],
+      "blocks.10": [
+        197,
+        768
+      ],
+      "blocks.11": [
+        197,
+        768
+      ]
+    }
+  },
+  "vit_large_patch16_224": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        1024
+      ],
+      "blocks.1": [
+        197,
+        1024
+      ],
+      "blocks.2": [
+        197,
+        1024
+      ],
+      "blocks.3": [
+        197,
+        1024
+      ],
+      "blocks.4": [
+        197,
+        1024
+      ],
+      "blocks.5": [
+        197,
+        1024
+      ],
+      "blocks.6": [
+        197,
+        1024
+      ],
+      "blocks.7": [
+        197,
+        1024
+      ],
+      "blocks.8": [
+        197,
+        1024
+      ],
+      "blocks.9": [
+        197,
+        1024
+      ],
+      "blocks.10": [
+        197,
+        1024
+      ],
+      "blocks.11": [
+        197,
+        1024
+      ],
+      "blocks.12": [
+        197,
+        1024
+      ],
+      "blocks.13": [
+        197,
+        1024
+      ],
+      "blocks.14": [
+        197,
+        1024
+      ],
+      "blocks.15": [
+        197,
+        1024
+      ],
+      "blocks.16": [
+        197,
+        1024
+      ],
+      "blocks.17": [
+        197,
+        1024
+      ],
+      "blocks.18": [
+        197,
+        1024
+      ],
+      "blocks.19": [
+        197,
+        1024
+      ],
+      "blocks.20": [
+        197,
+        1024
+      ],
+      "blocks.21": [
+        197,
+        1024
+      ],
+      "blocks.22": [
+        197,
+        1024
+      ],
+      "blocks.23": [
+        197,
+        1024
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        1024
+      ],
+      "blocks.1": [
+        197,
+        1024
+      ],
+      "blocks.2": [
+        197,
+        1024
+      ],
+      "blocks.3": [
+        197,
+        1024
+      ],
+      "blocks.4": [
+        197,
+        1024
+      ],
+      "blocks.5": [
+        197,
+        1024
+      ],
+      "blocks.6": [
+        197,
+        1024
+      ],
+      "blocks.7": [
+        197,
+        1024
+      ],
+      "blocks.8": [
+        197,
+        1024
+      ],
+      "blocks.9": [
+        197,
+        1024
+      ],
+      "blocks.10": [
+        197,
+        1024
+      ],
+      "blocks.11": [
+        197,
+        1024
+      ],
+      "blocks.12": [
+        197,
+        1024
+      ],
+      "blocks.13": [
+        197,
+        1024
+      ],
+      "blocks.14": [
+        197,
+        1024
+      ],
+      "blocks.15": [
+        197,
+        1024
+      ],
+      "blocks.16": [
+        197,
+        1024
+      ],
+      "blocks.17": [
+        197,
+        1024
+      ],
+      "blocks.18": [
+        197,
+        1024
+      ],
+      "blocks.19": [
+        197,
+        1024
+      ],
+      "blocks.20": [
+        197,
+        1024
+      ],
+      "blocks.21": [
+        197,
+        1024
+      ],
+      "blocks.22": [
+        197,
+        1024
+      ],
+      "blocks.23": [
+        197,
+        1024
+      ]
+    }
+  },
+  "vit_base_patch16_224mae": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        768
+      ],
+      "blocks.1": [
+        197,
+        768
+      ],
+      "blocks.2": [
+        197,
+        768
+      ],
+      "blocks.3": [
+        197,
+        768
+      ],
+      "blocks.4": [
+        197,
+        768
+      ],
+      "blocks.5": [
+        197,
+        768
+      ],
+      "blocks.6": [
+        197,
+        768
+      ],
+      "blocks.7": [
+        197,
+        768
+      ],
+      "blocks.8": [
+        197,
+        768
+      ],
+      "blocks.9": [
+        197,
+        768
+      ],
+      "blocks.10": [
+        197,
+        768
+      ],
+      "blocks.11": [
+        197,
+        768
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        768
+      ],
+      "blocks.1": [
+        197,
+        768
+      ],
+      "blocks.2": [
+        197,
+        768
+      ],
+      "blocks.3": [
+        197,
+        768
+      ],
+      "blocks.4": [
+        197,
+        768
+      ],
+      "blocks.5": [
+        197,
+        768
+      ],
+      "blocks.6": [
+        197,
+        768
+      ],
+      "blocks.7": [
+        197,
+        768
+      ],
+      "blocks.8": [
+        197,
+        768
+      ],
+      "blocks.9": [
+        197,
+        768
+      ],
+      "blocks.10": [
+        197,
+        768
+      ],
+      "blocks.11": [
+        197,
+        768
+      ]
+    }
+  },
+  "vit_small_patch16_224mocov3": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        384
+      ],
+      "blocks.1": [
+        197,
+        384
+      ],
+      "blocks.2": [
+        197,
+        384
+      ],
+      "blocks.3": [
+        197,
+        384
+      ],
+      "blocks.4": [
+        197,
+        384
+      ],
+      "blocks.5": [
+        197,
+        384
+      ],
+      "blocks.6": [
+        197,
+        384
+      ],
+      "blocks.7": [
+        197,
+        384
+      ],
+      "blocks.8": [
+        197,
+        384
+      ],
+      "blocks.9": [
+        197,
+        384
+      ],
+      "blocks.10": [
+        197,
+        384
+      ],
+      "blocks.11": [
+        197,
+        384
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        384
+      ],
+      "blocks.1": [
+        197,
+        384
+      ],
+      "blocks.2": [
+        197,
+        384
+      ],
+      "blocks.3": [
+        197,
+        384
+      ],
+      "blocks.4": [
+        197,
+        384
+      ],
+      "blocks.5": [
+        197,
+        384
+      ],
+      "blocks.6": [
+        197,
+        384
+      ],
+      "blocks.7": [
+        197,
+        384
+      ],
+      "blocks.8": [
+        197,
+        384
+      ],
+      "blocks.9": [
+        197,
+        384
+      ],
+      "blocks.10": [
+        197,
+        384
+      ],
+      "blocks.11": [
+        197,
+        384
+      ]
+    }
+  },
+  "regnet_y_32gf": {
+    "in_size": {
+      "trunk_output.block1.block1-0": [
+        32,
+        112,
+        112
+      ],
+      "trunk_output.block1.block1-1": [
+        232,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        232,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-1": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-4": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-1": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-11": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        1392,
+        14,
+        14
+      ]
+    },
+    "out_size": {
+      "trunk_output.block1.block1-0": [
+        232,
+        56,
+        56
+      ],
+      "trunk_output.block1.block1-1": [
+        232,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-1": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-3": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-4": [
+        696,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-1": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-8": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-9": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-10": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-11": [
+        1392,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        3712,
+        7,
+        7
+      ]
+    }
+  },
+  "regnet_y_800mf": {
+    "in_size": {
+      "trunk_output.block1.block1-0": [
+        32,
+        112,
+        112
+      ],
+      "trunk_output.block2.block2-0": [
+        64,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-1": [
+        144,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        144,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        144,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-1": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-1": [
+        784,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "trunk_output.block1.block1-0": [
+        64,
+        56,
+        56
+      ],
+      "trunk_output.block2.block2-0": [
+        144,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-1": [
+        144,
+        28,
+        28
+      ],
+      "trunk_output.block2.block2-2": [
+        144,
+        28,
+        28
+      ],
+      "trunk_output.block3.block3-0": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-1": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-2": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-3": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-4": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-5": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-6": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block3.block3-7": [
+        320,
+        14,
+        14
+      ],
+      "trunk_output.block4.block4-0": [
+        784,
+        7,
+        7
+      ],
+      "trunk_output.block4.block4-1": [
+        784,
+        7,
+        7
+      ]
+    }
+  },
+  "resnet18": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        64,
+        56,
+        56
+      ],
+      "layer2.0": [
+        64,
+        56,
+        56
+      ],
+      "layer2.1": [
+        128,
+        28,
+        28
+      ],
+      "layer3.0": [
+        128,
+        28,
+        28
+      ],
+      "layer3.1": [
+        256,
+        14,
+        14
+      ],
+      "layer4.0": [
+        256,
+        14,
+        14
+      ],
+      "layer4.1": [
+        512,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        64,
+        56,
+        56
+      ],
+      "layer2.0": [
+        128,
+        28,
+        28
+      ],
+      "layer2.1": [
+        128,
+        28,
+        28
+      ],
+      "layer3.0": [
+        256,
+        14,
+        14
+      ],
+      "layer3.1": [
+        256,
+        14,
+        14
+      ],
+      "layer4.0": [
+        512,
+        7,
+        7
+      ],
+      "layer4.1": [
+        512,
+        7,
+        7
+      ]
+    }
+  },
+  "resnet101": {
+    "in_size": {
+      "layer1.0": [
+        64,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        256,
+        56,
+        56
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        512,
+        28,
+        28
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.6": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.7": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.8": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.9": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.10": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.11": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.12": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.13": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.14": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.15": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.16": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.17": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.18": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.19": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.20": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.21": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.22": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    },
+    "out_size": {
+      "layer1.0": [
+        256,
+        56,
+        56
+      ],
+      "layer1.1": [
+        256,
+        56,
+        56
+      ],
+      "layer1.2": [
+        256,
+        56,
+        56
+      ],
+      "layer2.0": [
+        512,
+        28,
+        28
+      ],
+      "layer2.1": [
+        512,
+        28,
+        28
+      ],
+      "layer2.2": [
+        512,
+        28,
+        28
+      ],
+      "layer2.3": [
+        512,
+        28,
+        28
+      ],
+      "layer3.0": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.1": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.2": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.3": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.4": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.5": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.6": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.7": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.8": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.9": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.10": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.11": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.12": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.13": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.14": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.15": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.16": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.17": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.18": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.19": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.20": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.21": [
+        1024,
+        14,
+        14
+      ],
+      "layer3.22": [
+        1024,
+        14,
+        14
+      ],
+      "layer4.0": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.1": [
+        2048,
+        7,
+        7
+      ],
+      "layer4.2": [
+        2048,
+        7,
+        7
+      ]
+    }
+  },
+  "swin_base_patch4_window7_224": {
+    "in_size": {
+      "stages.0.blocks.0": [
+        3136,
+        128
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        128
+      ],
+      "stages.0.downsample": [
+        3136,
+        128
+      ],
+      "stages.1.blocks.0": [
+        784,
+        256
+      ],
+      "stages.1.blocks.1": [
+        784,
+        256
+      ],
+      "stages.1.downsample": [
+        784,
+        256
+      ],
+      "stages.2.blocks.0": [
+        196,
+        512
+      ],
+      "stages.2.blocks.1": [
+        196,
+        512
+      ],
+      "stages.2.blocks.2": [
+        196,
+        512
+      ],
+      "stages.2.blocks.3": [
+        196,
+        512
+      ],
+      "stages.2.blocks.4": [
+        196,
+        512
+      ],
+      "stages.2.blocks.5": [
+        196,
+        512
+      ],
+      "stages.2.blocks.6": [
+        196,
+        512
+      ],
+      "stages.2.blocks.7": [
+        196,
+        512
+      ],
+      "stages.2.blocks.8": [
+        196,
+        512
+      ],
+      "stages.2.blocks.9": [
+        196,
+        512
+      ],
+      "stages.2.blocks.10": [
+        196,
+        512
+      ],
+      "stages.2.blocks.11": [
+        196,
+        512
+      ],
+      "stages.2.blocks.12": [
+        196,
+        512
+      ],
+      "stages.2.blocks.13": [
+        196,
+        512
+      ],
+      "stages.2.blocks.14": [
+        196,
+        512
+      ],
+      "stages.2.blocks.15": [
+        196,
+        512
+      ],
+      "stages.2.blocks.16": [
+        196,
+        512
+      ],
+      "stages.2.blocks.17": [
+        196,
+        512
+      ],
+      "stages.2.downsample": [
+        196,
+        512
+      ],
+      "stages.3.blocks.0": [
+        49,
+        1024
+      ],
+      "stages.3.blocks.1": [
+        49,
+        1024
+      ]
+    },
+    "out_size": {
+      "stages.0.blocks.0": [
+        3136,
+        128
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        128
+      ],
+      "stages.0.downsample": [
+        784,
+        256
+      ],
+      "stages.1.blocks.0": [
+        784,
+        256
+      ],
+      "stages.1.blocks.1": [
+        784,
+        256
+      ],
+      "stages.1.downsample": [
+        196,
+        512
+      ],
+      "stages.2.blocks.0": [
+        196,
+        512
+      ],
+      "stages.2.blocks.1": [
+        196,
+        512
+      ],
+      "stages.2.blocks.2": [
+        196,
+        512
+      ],
+      "stages.2.blocks.3": [
+        196,
+        512
+      ],
+      "stages.2.blocks.4": [
+        196,
+        512
+      ],
+      "stages.2.blocks.5": [
+        196,
+        512
+      ],
+      "stages.2.blocks.6": [
+        196,
+        512
+      ],
+      "stages.2.blocks.7": [
+        196,
+        512
+      ],
+      "stages.2.blocks.8": [
+        196,
+        512
+      ],
+      "stages.2.blocks.9": [
+        196,
+        512
+      ],
+      "stages.2.blocks.10": [
+        196,
+        512
+      ],
+      "stages.2.blocks.11": [
+        196,
+        512
+      ],
+      "stages.2.blocks.12": [
+        196,
+        512
+      ],
+      "stages.2.blocks.13": [
+        196,
+        512
+      ],
+      "stages.2.blocks.14": [
+        196,
+        512
+      ],
+      "stages.2.blocks.15": [
+        196,
+        512
+      ],
+      "stages.2.blocks.16": [
+        196,
+        512
+      ],
+      "stages.2.blocks.17": [
+        196,
+        512
+      ],
+      "stages.2.downsample": [
+        49,
+        1024
+      ],
+      "stages.3.blocks.0": [
+        49,
+        1024
+      ],
+      "stages.3.blocks.1": [
+        49,
+        1024
+      ]
+    }
+  },
+  "swin_large_patch4_window7_224": {
+    "in_size": {
+      "stages.0.blocks.0": [
+        3136,
+        192
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        192
+      ],
+      "stages.0.downsample": [
+        3136,
+        192
+      ],
+      "stages.1.blocks.0": [
+        784,
+        384
+      ],
+      "stages.1.blocks.1": [
+        784,
+        384
+      ],
+      "stages.1.downsample": [
+        784,
+        384
+      ],
+      "stages.2.blocks.0": [
+        196,
+        768
+      ],
+      "stages.2.blocks.1": [
+        196,
+        768
+      ],
+      "stages.2.blocks.2": [
+        196,
+        768
+      ],
+      "stages.2.blocks.3": [
+        196,
+        768
+      ],
+      "stages.2.blocks.4": [
+        196,
+        768
+      ],
+      "stages.2.blocks.5": [
+        196,
+        768
+      ],
+      "stages.2.blocks.6": [
+        196,
+        768
+      ],
+      "stages.2.blocks.7": [
+        196,
+        768
+      ],
+      "stages.2.blocks.8": [
+        196,
+        768
+      ],
+      "stages.2.blocks.9": [
+        196,
+        768
+      ],
+      "stages.2.blocks.10": [
+        196,
+        768
+      ],
+      "stages.2.blocks.11": [
+        196,
+        768
+      ],
+      "stages.2.blocks.12": [
+        196,
+        768
+      ],
+      "stages.2.blocks.13": [
+        196,
+        768
+      ],
+      "stages.2.blocks.14": [
+        196,
+        768
+      ],
+      "stages.2.blocks.15": [
+        196,
+        768
+      ],
+      "stages.2.blocks.16": [
+        196,
+        768
+      ],
+      "stages.2.blocks.17": [
+        196,
+        768
+      ],
+      "stages.2.downsample": [
+        196,
+        768
+      ],
+      "stages.3.blocks.0": [
+        49,
+        1536
+      ],
+      "stages.3.blocks.1": [
+        49,
+        1536
+      ]
+    },
+    "out_size": {
+      "stages.0.blocks.0": [
+        3136,
+        192
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        192
+      ],
+      "stages.0.downsample": [
+        784,
+        384
+      ],
+      "stages.1.blocks.0": [
+        784,
+        384
+      ],
+      "stages.1.blocks.1": [
+        784,
+        384
+      ],
+      "stages.1.downsample": [
+        196,
+        768
+      ],
+      "stages.2.blocks.0": [
+        196,
+        768
+      ],
+      "stages.2.blocks.1": [
+        196,
+        768
+      ],
+      "stages.2.blocks.2": [
+        196,
+        768
+      ],
+      "stages.2.blocks.3": [
+        196,
+        768
+      ],
+      "stages.2.blocks.4": [
+        196,
+        768
+      ],
+      "stages.2.blocks.5": [
+        196,
+        768
+      ],
+      "stages.2.blocks.6": [
+        196,
+        768
+      ],
+      "stages.2.blocks.7": [
+        196,
+        768
+      ],
+      "stages.2.blocks.8": [
+        196,
+        768
+      ],
+      "stages.2.blocks.9": [
+        196,
+        768
+      ],
+      "stages.2.blocks.10": [
+        196,
+        768
+      ],
+      "stages.2.blocks.11": [
+        196,
+        768
+      ],
+      "stages.2.blocks.12": [
+        196,
+        768
+      ],
+      "stages.2.blocks.13": [
+        196,
+        768
+      ],
+      "stages.2.blocks.14": [
+        196,
+        768
+      ],
+      "stages.2.blocks.15": [
+        196,
+        768
+      ],
+      "stages.2.blocks.16": [
+        196,
+        768
+      ],
+      "stages.2.blocks.17": [
+        196,
+        768
+      ],
+      "stages.2.downsample": [
+        49,
+        1536
+      ],
+      "stages.3.blocks.0": [
+        49,
+        1536
+      ],
+      "stages.3.blocks.1": [
+        49,
+        1536
+      ]
+    }
+  },
+  "swin_small_patch4_window7_224": {
+    "in_size": {
+      "stages.0.blocks.0": [
+        3136,
+        96
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        96
+      ],
+      "stages.0.downsample": [
+        3136,
+        96
+      ],
+      "stages.1.blocks.0": [
+        784,
+        192
+      ],
+      "stages.1.blocks.1": [
+        784,
+        192
+      ],
+      "stages.1.downsample": [
+        784,
+        192
+      ],
+      "stages.2.blocks.0": [
+        196,
+        384
+      ],
+      "stages.2.blocks.1": [
+        196,
+        384
+      ],
+      "stages.2.blocks.2": [
+        196,
+        384
+      ],
+      "stages.2.blocks.3": [
+        196,
+        384
+      ],
+      "stages.2.blocks.4": [
+        196,
+        384
+      ],
+      "stages.2.blocks.5": [
+        196,
+        384
+      ],
+      "stages.2.blocks.6": [
+        196,
+        384
+      ],
+      "stages.2.blocks.7": [
+        196,
+        384
+      ],
+      "stages.2.blocks.8": [
+        196,
+        384
+      ],
+      "stages.2.blocks.9": [
+        196,
+        384
+      ],
+      "stages.2.blocks.10": [
+        196,
+        384
+      ],
+      "stages.2.blocks.11": [
+        196,
+        384
+      ],
+      "stages.2.blocks.12": [
+        196,
+        384
+      ],
+      "stages.2.blocks.13": [
+        196,
+        384
+      ],
+      "stages.2.blocks.14": [
+        196,
+        384
+      ],
+      "stages.2.blocks.15": [
+        196,
+        384
+      ],
+      "stages.2.blocks.16": [
+        196,
+        384
+      ],
+      "stages.2.blocks.17": [
+        196,
+        384
+      ],
+      "stages.2.downsample": [
+        196,
+        384
+      ],
+      "stages.3.blocks.0": [
+        49,
+        768
+      ],
+      "stages.3.blocks.1": [
+        49,
+        768
+      ]
+    },
+    "out_size": {
+      "stages.0.blocks.0": [
+        3136,
+        96
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        96
+      ],
+      "stages.0.downsample": [
+        784,
+        192
+      ],
+      "stages.1.blocks.0": [
+        784,
+        192
+      ],
+      "stages.1.blocks.1": [
+        784,
+        192
+      ],
+      "stages.1.downsample": [
+        196,
+        384
+      ],
+      "stages.2.blocks.0": [
+        196,
+        384
+      ],
+      "stages.2.blocks.1": [
+        196,
+        384
+      ],
+      "stages.2.blocks.2": [
+        196,
+        384
+      ],
+      "stages.2.blocks.3": [
+        196,
+        384
+      ],
+      "stages.2.blocks.4": [
+        196,
+        384
+      ],
+      "stages.2.blocks.5": [
+        196,
+        384
+      ],
+      "stages.2.blocks.6": [
+        196,
+        384
+      ],
+      "stages.2.blocks.7": [
+        196,
+        384
+      ],
+      "stages.2.blocks.8": [
+        196,
+        384
+      ],
+      "stages.2.blocks.9": [
+        196,
+        384
+      ],
+      "stages.2.blocks.10": [
+        196,
+        384
+      ],
+      "stages.2.blocks.11": [
+        196,
+        384
+      ],
+      "stages.2.blocks.12": [
+        196,
+        384
+      ],
+      "stages.2.blocks.13": [
+        196,
+        384
+      ],
+      "stages.2.blocks.14": [
+        196,
+        384
+      ],
+      "stages.2.blocks.15": [
+        196,
+        384
+      ],
+      "stages.2.blocks.16": [
+        196,
+        384
+      ],
+      "stages.2.blocks.17": [
+        196,
+        384
+      ],
+      "stages.2.downsample": [
+        49,
+        768
+      ],
+      "stages.3.blocks.0": [
+        49,
+        768
+      ],
+      "stages.3.blocks.1": [
+        49,
+        768
+      ]
+    }
+  },
+  "swin_tiny_patch4_window7_224": {
+    "in_size": {
+      "stages.0.blocks.0": [
+        3136,
+        96
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        96
+      ],
+      "stages.0.downsample": [
+        3136,
+        96
+      ],
+      "stages.1.blocks.0": [
+        784,
+        192
+      ],
+      "stages.1.blocks.1": [
+        784,
+        192
+      ],
+      "stages.1.downsample": [
+        784,
+        192
+      ],
+      "stages.2.blocks.0": [
+        196,
+        384
+      ],
+      "stages.2.blocks.1": [
+        196,
+        384
+      ],
+      "stages.2.blocks.2": [
+        196,
+        384
+      ],
+      "stages.2.blocks.3": [
+        196,
+        384
+      ],
+      "stages.2.blocks.4": [
+        196,
+        384
+      ],
+      "stages.2.blocks.5": [
+        196,
+        384
+      ],
+      "stages.2.downsample": [
+        196,
+        384
+      ],
+      "stages.3.blocks.0": [
+        49,
+        768
+      ],
+      "stages.3.blocks.1": [
+        49,
+        768
+      ]
+    },
+    "out_size": {
+      "stages.0.blocks.0": [
+        3136,
+        96
+      ],
+      "stages.0.blocks.1": [
+        3136,
+        96
+      ],
+      "stages.0.downsample": [
+        784,
+        192
+      ],
+      "stages.1.blocks.0": [
+        784,
+        192
+      ],
+      "stages.1.blocks.1": [
+        784,
+        192
+      ],
+      "stages.1.downsample": [
+        196,
+        384
+      ],
+      "stages.2.blocks.0": [
+        196,
+        384
+      ],
+      "stages.2.blocks.1": [
+        196,
+        384
+      ],
+      "stages.2.blocks.2": [
+        196,
+        384
+      ],
+      "stages.2.blocks.3": [
+        196,
+        384
+      ],
+      "stages.2.blocks.4": [
+        196,
+        384
+      ],
+      "stages.2.blocks.5": [
+        196,
+        384
+      ],
+      "stages.2.downsample": [
+        49,
+        768
+      ],
+      "stages.3.blocks.0": [
+        49,
+        768
+      ],
+      "stages.3.blocks.1": [
+        49,
+        768
+      ]
+    }
+  },
+  "vit_base_patch16_224mocov3": {
+    "in_size": {
+      "blocks.0": [
+        197,
+        768
+      ],
+      "blocks.1": [
+        197,
+        768
+      ],
+      "blocks.2": [
+        197,
+        768
+      ],
+      "blocks.3": [
+        197,
+        768
+      ],
+      "blocks.4": [
+        197,
+        768
+      ],
+      "blocks.5": [
+        197,
+        768
+      ],
+      "blocks.6": [
+        197,
+        768
+      ],
+      "blocks.7": [
+        197,
+        768
+      ],
+      "blocks.8": [
+        197,
+        768
+      ],
+      "blocks.9": [
+        197,
+        768
+      ],
+      "blocks.10": [
+        197,
+        768
+      ],
+      "blocks.11": [
+        197,
+        768
+      ]
+    },
+    "out_size": {
+      "blocks.0": [
+        197,
+        768
+      ],
+      "blocks.1": [
+        197,
+        768
+      ],
+      "blocks.2": [
+        197,
+        768
+      ],
+      "blocks.3": [
+        197,
+        768
+      ],
+      "blocks.4": [
+        197,
+        768
+      ],
+      "blocks.5": [
+        197,
+        768
+      ],
+      "blocks.6": [
+        197,
+        768
+      ],
+      "blocks.7": [
+        197,
+        768
+      ],
+      "blocks.8": [
+        197,
+        768
+      ],
+      "blocks.9": [
+        197,
+        768
+      ],
+      "blocks.10": [
+        197,
+        768
+      ],
+      "blocks.11": [
+        197,
+        768
+      ]
+    }
+  }
+}
