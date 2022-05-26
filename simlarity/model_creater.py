@@ -131,7 +131,7 @@ class Model_Creator(object):
         model_cfg = dict(
             type='ImageClassifier',
             backbone=dict(
-                type='MixerFormerv3',
+                type='DeRy',
                 block_fixed=False,
                 base_channels=blocks[0].in_size[0],
                 block_list=[b.print_split() for b in blocks],

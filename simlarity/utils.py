@@ -18,58 +18,6 @@ from blocklize.block_meta import MODEL_INOUT_SHAPE
 import mmcls
 
 
-def count_all_subnet(node_list, k, eps):
-    '''
-    args:
-        node_list: a list of node names
-        k: number of split for the node
-        eps: the allowed deviation from the mean
-    return: [list] all  
-    '''
-    n = len(node_list)
-    max_node_per_block = int(np.ceil((n/k) * (1+eps)))
-    min_node_per_block = n - (k-1) * max_node_per_block
-    node_per_block = list(range(min_node_per_block, max_node_per_block+1))
-    result = all_subnet(node_per_block, [], n)
-    print(result)
-    # base case
-    # count = [0 for i in range(n + 1)]
-    # count[0] = 1
-
-    # # Count ways for all values up
-    # # to 'N' and store the result
-    # for i in range(1, n + 1):
-    #     for j in range(max_node_per_block-min_node_per_block+1):
-
-    #         # if i >= arr[j] then
-    #         # accumulate count for value 'i' as
-    #         # ways to form value 'i-arr[j]'
-    #         if (i >= node_per_block[j]):
-    #             count[i] += count[i - node_per_block[j]]
-    # print(count)
-
-
-def all_subnet(node_per_block, result, s):
-    if s == 0:
-        return result
-    if s < min(node_per_block):
-        return
-    print(result)
-    for a in node_per_block:
-        if a <= s:
-            if len(result) > 0:
-                new_result = [r + [a] for r in result]
-            else:
-                new_result.append([a])
-            new_result.append(all_subnet(node_per_block, new_result, s-a))
-            if None in new_result:
-                pass
-
-            result.append(all_subnet(node_per_block, result, s-a))
-
-    return result
-
-
 def create_feature_dict(path):
     result_dict = dict()
     for name in os.listdir(path):
@@ -242,22 +190,7 @@ class Block_Sim:
                         block_sim = (sim_map[block1.node_list[0], block2.node_list[0]] +
                                      sim_map[block1.node_list[-1], block2.node_list[-1]])
                     except:
-                        print(block1)
-                        print(block2)
-                        exit()
-                    # block_sim = 0
-                    # num1 = len(block1)
-                    # num2 = len(block2)
-                    # for n_id1 in range(num1):
-                    #     for n_id2 in range(num2):
-                    #         block_sim += sim_map[block1.node_list[n_id1], block2.node_list[n_id2]]
-                    # block_sim = block_sim /(num1*num2)
-
-                    # block_sim = np.abs(sim_map[block1.node_list[-1], block2.node_list[-1]] -
-                    #             sim_map[block1.node_list[0], block2.node_list[0]])
-                    # block_sim = -(sim_map[block1.node_list[-1], block2.node_list[-1]] -
-                    #             sim_map[block1.node_list[0], block2.node_list[0]])
-                    # block_sim = sim_map[block1.node_list[-1], block2.node_list[-1]]/sim_map[block1.node_list[0], block2.node_list[0]]
+                        AssertionError('The functional similarity can not be computed')
             else:
                 block_sim = 0
 

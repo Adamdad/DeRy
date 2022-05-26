@@ -1,22 +1,22 @@
-# configs/block_mixer/10m_downstream_new/10m_aircraft_256x1_100e_dere_adamw_freeze.py \ 
-# configs/block_mixer/10m_downstream_new/10m_caltech101_256x1_100e_dere_adamw_freeze.py \ 
-# configs/block_mixer/10m_downstream_new/10m_car_256x1_100e_dere_adamw_freeze.py \
-# configs/block_mixer/10m_downstream_new/10m_car_256x1_100e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_cifar10_256x1_100e_dere_adamw_freeze.py \
-# configs/block_mixer/10m_downstream_new/10m_cifar10_256x1_100e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_cifar100_256x1_100e_dere_adamw_freeze.py \
-# configs/block_mixer/10m_downstream_new/10m_cifar100_256x1_100e_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_aircraft_256x1_20k_dere_adamw_freeze.py \ 
+# configs/block_mixer/10m_downstream_new/10m_caltech101_256x1_20k_dere_adamw_freeze.py \ 
+# configs/block_mixer/10m_downstream_new/10m_car_256x1_20k_dere_adamw_freeze.py \
+# configs/block_mixer/10m_downstream_new/10m_car_256x1_20k_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_cifar10_256x1_20k_dere_adamw_freeze.py \
+# configs/block_mixer/10m_downstream_new/10m_cifar10_256x1_20k_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_cifar100_256x1_20k_dere_adamw_freeze.py \
+# configs/block_mixer/10m_downstream_new/10m_cifar100_256x1_20k_dere_adamw.py \
 # configs/block_mixer/10m_downstream_new/10m_cifar100_256x1_200e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_cub_256x1_100e_dere_adamw_freeze.py 
-# configs/block_mixer/10m_downstream_new/10m_cub_256x1_100e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_dtd_256x1_100e_dere_adamw_freeze.py 
-# configs/block_mixer/10m_downstream_new/10m_dtd_256x1_100e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_flower_256x1_100e_dere_adamw_freeze.py 
-# configs/block_mixer/10m_downstream_new/10m_flower_256x1_100e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_pets_256x1_100e_dere_adamw_freeze.py
-# configs/block_mixer/20m_downstream_new/20m_cub_256x1_100e_dere_adamw_freeze.py \
-# configs/block_mixer/20m_downstream_new/20m_cub_256x1_100e_dere_adamw.py \
-# configs/block_mixer/10m_downstream_new/10m_pets_256x1_100e_dere_adamw.py 
+# configs/block_mixer/10m_downstream_new/10m_cub_256x1_20k_dere_adamw_freeze.py 
+# configs/block_mixer/10m_downstream_new/10m_cub_256x1_20k_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_dtd_256x1_20k_dere_adamw_freeze.py 
+# configs/block_mixer/10m_downstream_new/10m_dtd_256x1_20k_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_flower_256x1_20k_dere_adamw_freeze.py 
+# configs/block_mixer/10m_downstream_new/10m_flower_256x1_20k_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_pets_256x1_20k_dere_adamw_freeze.py
+# configs/block_mixer/20m_downstream_new/20m_cub_256x1_20k_dere_adamw_freeze.py \
+# configs/block_mixer/20m_downstream_new/20m_cub_256x1_20k_dere_adamw.py \
+# configs/block_mixer/10m_downstream_new/10m_pets_256x1_20k_dere_adamw.py 
 # configs/block_mixer/20m_downstream_new/20m_caltech101_256x1_40k_dere_adamw_freeze.py \
 # configs/block_mixer/20m_downstream_new/20m_caltech101_256x1_40k_dere_adamw.py \
 # configs/block_mixer/20m_downstream_new/20m_cub_256x1_40k_dere_adamw.py \

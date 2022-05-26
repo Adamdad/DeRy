@@ -5,51 +5,6 @@ MODEL_ZOO = ['resnet50', 'resnet101', 'resnet18', 'resnet50mocov2', 'resnet50byo
              'swin_tiny_patch4_window7_224', 'swin_small_patch4_window7_224', 'swin_base_patch4_window7_224', 'swin_large_patch4_window7_224',
              'regnet_y_16gf', 'regnet_y_3_2gf', 'regnet_y_1_6gf', 'regnet_y_8gf', 'regnet_y_32gf', 'regnet_y_800mf']
 
-MODEL2MODULES = {
-    'resnet50': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'resnet101': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'resnet152': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'tf_efficientnetv2_l_in21ft1k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'tf_efficientnetv2_m_in21ft1k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'tf_efficientnetv2_s_in21ft1k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5'],
-    'mobilenetv3_large_100_miil_in21k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    # 'tf_mobilenetv3_large_075': [],
-    # 'tf_mobilenetv3_small_100': [],
-    # 'tf_mobilenetv3_small_075': [],
-    'mobilenetv2_140': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'mobilenetv2_120d': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'mobilenetv2_110d': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'mobilenetv2_100': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'regnet_y_16gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'regnet_y_8gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'regnet_y_3_2gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'regnet_y_1_6gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'swin_base_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    'swin_large_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    'swin_small_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    'swin_tiny_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    # 'hrnet_w48': ['stage1', 'stage2', 'stage3', 'stage4'],
-    # 'hrnet_w40': ['stage1', 'stage2', 'stage3', 'stage4'],
-    # 'hrnet_w32': ['stage1', 'stage2', 'stage3', 'stage4'],
-    # 'hrnet_w18': ['stage1', 'stage2', 'stage3', 'stage4'],
-    'swsl_resnext101_32x8d': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'swsl_resnext50_32x4d': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'resnext50_32x4d': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'vit_large_patch16_224': [f'blocks.{i}' for i in range(24)],
-    'vit_base_patch16_224': [f'blocks.{i}' for i in range(12)],
-    'vit_small_patch16_224': [f'blocks.{i}' for i in range(12)],
-    'vit_tiny_patch16_224': [f'blocks.{i}' for i in range(12)],
-    'tf_inception_v3': ['Mixed_5b', 'Mixed_5c', 'Mixed_5d',
-                        'Mixed_6a', 'Mixed_6b', 'Mixed_6c', 'Mixed_6d', 'Mixed_6e',
-                        'Mixed_7a', 'Mixed_7b', 'Mixed_7c'],
-    'inception_resnet_v2': ['mixed_5b', 'repeat', 'mixed_6a',
-                            'repeat_1', 'mixed_7a', 'repeat_2', 'block8'],
-    'repvgg_b3': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-    'repvgg_b2': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-    'repvgg_b1': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-    'repvgg_b0': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-}
-
 
 MODEL_BLOCKS = {
     'resnet18': ['layer1.0', 'layer1.1', 'layer2.0', 'layer2.1',
@@ -439,28 +394,6 @@ MODEL_PRINT = {
     'tf_mobilenetv3_large_075': 'MobileNetv3 Large 0.75',
     'tf_mobilenetv3_small_100': 'MobileNetv3 Small 1.0',
     'tf_mobilenetv3_small_075': 'MobileNetv3 Small 0.75',
-    'mobilenetv2_140': ['blocks.0.0', 'blocks.1.0', 'blocks.1.1', 'blocks.2.0',
-                        'blocks.2.1', 'blocks.2.2', 'blocks.3.0', 'blocks.3.1',
-                        'blocks.3.2', 'blocks.3.3', 'blocks.4.0', 'blocks.4.1',
-                        'blocks.4.2', 'blocks.5.0', 'blocks.5.1', 'blocks.5.2', 'blocks.6.0'],
-    'mobilenetv2_120d': ['blocks.0.0', 'blocks.1.0', 'blocks.1.1', 'blocks.1.2',
-                         'blocks.2.0', 'blocks.2.1', 'blocks.2.2', 'blocks.2.3',
-                         'blocks.2.4', 'blocks.3.0', 'blocks.3.1', 'blocks.3.2',
-                         'blocks.3.3', 'blocks.3.4', 'blocks.3.5', 'blocks.4.0',
-                         'blocks.4.1', 'blocks.4.2', 'blocks.4.3', 'blocks.4.4',
-                         'blocks.5.0', 'blocks.5.1', 'blocks.5.2', 'blocks.5.3',
-                         'blocks.5.4', 'blocks.6.0'],
-    'mobilenetv2_110d': ['blocks.0.0', 'blocks.1.0', 'blocks.1.1', 'blocks.1.2',
-                         'blocks.2.0', 'blocks.2.1', 'blocks.2.2', 'blocks.2.3',
-                         'blocks.3.0', 'blocks.3.1', 'blocks.3.2', 'blocks.3.3',
-                         'blocks.3.4', 'blocks.4.0', 'blocks.4.1', 'blocks.4.2',
-                         'blocks.4.3', 'blocks.5.0', 'blocks.5.1', 'blocks.5.2',
-                         'blocks.5.3', 'blocks.6.0'],
-    'mobilenetv2_100': ['blocks.0.0', 'blocks.1.0', 'blocks.1.1', 'blocks.2.0',
-                        'blocks.2.1', 'blocks.2.2', 'blocks.3.0', 'blocks.3.1',
-                        'blocks.3.2', 'blocks.3.3', 'blocks.4.0', 'blocks.4.1',
-                        'blocks.4.2', 'blocks.5.0', 'blocks.5.1', 'blocks.5.2',
-                        'blocks.6.0'],
     'regnet_y_16gf': 'RegNetY-16GF',
     'regnet_y_8gf': 'RegNetY-8GF',
     'regnet_y_32gf': 'RegNetY-32GF',
@@ -491,38 +424,6 @@ MODEL_PRINT = {
     'vit_base_patch16_224': 'ViT-B',
     'vit_small_patch16_224': 'ViT-S',
     'vit_tiny_patch16_224': 'ViT-T',
-    'tf_inception_v3': ['Mixed_5b', 'Mixed_5c', 'Mixed_5d', 'Mixed_6a',
-                        'Mixed_6b', 'Mixed_6c', 'Mixed_6d', 'Mixed_6e',
-                        'Mixed_7a', 'Mixed_7b', 'Mixed_7c'],
-    'inception_resnet_v2': [],
-    'repvgg_b3': ['stages.0.0', 'stages.0.1', 'stages.0.2', 'stages.0.3',
-                  'stages.1.0', 'stages.1.1', 'stages.1.2', 'stages.1.3',
-                  'stages.1.4', 'stages.1.5', 'stages.2.0', 'stages.2.1',
-                  'stages.2.2', 'stages.2.3', 'stages.2.4', 'stages.2.5',
-                  'stages.2.6', 'stages.2.7', 'stages.2.8', 'stages.2.9',
-                  'stages.2.10', 'stages.2.11', 'stages.2.12', 'stages.2.13',
-                  'stages.2.14', 'stages.2.15', 'stages.3.0'],
-    'repvgg_b2': ['stages.0.0', 'stages.0.1', 'stages.0.2', 'stages.0.3',
-                  'stages.1.0', 'stages.1.1', 'stages.1.2', 'stages.1.3',
-                  'stages.1.4', 'stages.1.5', 'stages.2.0', 'stages.2.1',
-                  'stages.2.2', 'stages.2.3', 'stages.2.4', 'stages.2.5',
-                  'stages.2.6', 'stages.2.7', 'stages.2.8', 'stages.2.9',
-                  'stages.2.10', 'stages.2.11', 'stages.2.12', 'stages.2.13',
-                  'stages.2.14', 'stages.2.15', 'stages.3.0'],
-    'repvgg_b1': ['stages.0.0', 'stages.0.1', 'stages.0.2', 'stages.0.3',
-                  'stages.1.0', 'stages.1.1', 'stages.1.2', 'stages.1.3',
-                  'stages.1.4', 'stages.1.5', 'stages.2.0', 'stages.2.1',
-                  'stages.2.2', 'stages.2.3', 'stages.2.4', 'stages.2.5',
-                  'stages.2.6', 'stages.2.7', 'stages.2.8', 'stages.2.9',
-                  'stages.2.10', 'stages.2.11', 'stages.2.12', 'stages.2.13',
-                  'stages.2.14', 'stages.2.15', 'stages.3.0'],
-    'repvgg_b0': ['stages.0.0', 'stages.0.1', 'stages.0.2', 'stages.0.3',
-                  'stages.1.0', 'stages.1.1', 'stages.1.2', 'stages.1.3',
-                  'stages.1.4', 'stages.1.5', 'stages.2.0', 'stages.2.1',
-                  'stages.2.2', 'stages.2.3', 'stages.2.4', 'stages.2.5',
-                  'stages.2.6', 'stages.2.7', 'stages.2.8', 'stages.2.9',
-                  'stages.2.10', 'stages.2.11', 'stages.2.12', 'stages.2.13',
-                  'stages.2.14', 'stages.2.15', 'stages.3.0'],
 }
 
 
@@ -580,77 +481,6 @@ MODEL_STATS = {
     'vit_tiny_patch16_224': dict(arch='vit_tiny_patch16_224', top1=75.456, param=5.72, backend='mytimm', type='vit'),
 }
 
-MODEL2MODULES_HT = {
-    'resnet50': (['conv1', 'bn1', 'relu', 'maxpool'], ['layer1', 'layer2', 'layer3', 'layer4'], ['fc']),
-    'resnet101': (['conv1', 'bn1', 'relu', 'maxpool'], ['layer1', 'layer2', 'layer3', 'layer4'], ['fc']),
-    'resnet152': (['conv1', 'bn1', 'relu', 'maxpool'], ['layer1', 'layer2', 'layer3', 'layer4'], ['fc']),
-    'tf_efficientnetv2_l_in21ft1k': (['conv_stem', 'bn1', 'act1'], ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'], ['classifier']),
-    'tf_efficientnetv2_m_in21ft1k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'tf_efficientnetv2_s_in21ft1k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5'],
-    'mobilenetv3_large_100_miil_in21k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    # 'tf_mobilenetv3_large_075': [],
-    # 'tf_mobilenetv3_small_100': [],
-    # 'tf_mobilenetv3_small_075': [],
-    'mobilenetv2_140': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'mobilenetv2_120d': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'mobilenetv2_110d': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'mobilenetv2_100': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'regnet_y_16gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'regnet_y_8gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'regnet_y_3_2gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'regnet_y_1_6gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'swin_base_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    'swin_large_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    'swin_small_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    'swin_tiny_patch4_window7_224': ['layers.0', 'layers.1', 'layers.2', 'layers.3'],
-    # 'hrnet_w48': ['stage1', 'stage2', 'stage3', 'stage4'],
-    # 'hrnet_w40': ['stage1', 'stage2', 'stage3', 'stage4'],
-    # 'hrnet_w32': ['stage1', 'stage2', 'stage3', 'stage4'],
-    # 'hrnet_w18': ['stage1', 'stage2', 'stage3', 'stage4'],
-    'swsl_resnext101_32x8d': (['conv1', 'bn1', 'relu', 'maxpool'], ['layer1', 'layer2', 'layer3', 'layer4'], ['fc']),
-    'swsl_resnext50_32x4d': (['conv1', 'bn1', 'relu', 'maxpool'], ['layer1', 'layer2', 'layer3', 'layer4'], ['fc']),
-    'resnext50_32x4d': (['conv1', 'bn1', 'relu', 'maxpool'], ['layer1', 'layer2', 'layer3', 'layer4'], ['fc']),
-    'vit_large_patch16_224': [f'blocks.{i}' for i in range(24)],
-    'vit_base_patch16_224': [f'blocks.{i}' for i in range(12)],
-    'vit_small_patch16_224': [f'blocks.{i}' for i in range(12)],
-    'vit_tiny_patch16_224': [f'blocks.{i}' for i in range(12)],
-    'tf_inception_v3': ['Mixed_5b', 'Mixed_5c', 'Mixed_5d',
-                        'Mixed_6a', 'Mixed_6b', 'Mixed_6c', 'Mixed_6d', 'Mixed_6e',
-                        'Mixed_7a', 'Mixed_7b', 'Mixed_7c'],
-    'inception_resnet_v2': ['mixed_5b', 'repeat', 'mixed_6a',
-                            'repeat_1', 'mixed_7a', 'repeat_2', 'block8'],
-    'repvgg_b3': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-    'repvgg_b2': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-    'repvgg_b1': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-    'repvgg_b0': ['stages.0', 'stages.1', 'stages.2', 'stages.3'],
-}
-
-
-MODEL2MODULES_SHUFFLE = {
-    'resnet50': ['layer1', 'layer2', 'layer3', 'layer4'],
-    'mobilenetv3_large_100_miil_in21k': ['blocks.0', 'blocks.1', 'blocks.2', 'blocks.3', 'blocks.4', 'blocks.5', 'blocks.6'],
-    'swsl_resnext101_32x8d': ['layer1', 'layer2', 'layer3', 'layer4']
-}
-
-# MODEL2MODULES_SWAP = {
-#     'resnet50': ['layer1', 'layer2', 'layer3', 'layer4'],
-#     'swsl_resnext101_32x8d': ['layer1', 'layer2', 'layer3', 'layer4']
-# }
-
-MODEL2MODULES_SWAP = {
-    'regnet_y_8gf': ['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'],
-    'swsl_resnext101_32x8d': ['layer1', 'layer2', 'layer3', 'layer4']
-}
-
-# MODEL2MODULES_SWAPv2 = {
-#     'regnet_y_8gf': (['trunk_output.block1', 'trunk_output.block2', 'trunk_output.block3', 'trunk_output.block4'], 'timm'),
-#     'swsl_resnext101_32x8d': (['layer1', 'layer2', 'layer3', 'layer4'], 'timm')
-# }
-
-MODEL2MODULES_SWAPv2 = {
-    'resnet50': (['layer1', 'layer2', 'layer3', 'layer4'], 'pytorch'),
-    'swsl_resnext101_32x8d': (['layer1', 'layer2', 'layer3', 'layer4'], 'timm')
-}
 
 try:
     with open('tools/MODEL_INOUT_SHAPE.json') as json_file:

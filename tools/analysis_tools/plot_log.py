@@ -48,11 +48,11 @@ def load_json_log(json_log):
 
 
 json_logs = [
-    ['/Users/xingyiyang/Documents/Projects/DeepReasembly/data/resnet50_imagenet_128x8_100e20220405_105514.log.json',
-     '/Users/xingyiyang/Documents/Projects/DeepReasembly/data/swin-tiny_8xb128_in1k_100e20220404_215937.log.json',
+    ['/Users/xingyiyang/Documents/Projects/DeepReasembly/data/resnet50_imagenet_128x8_20k20220405_105514.log.json',
+     '/Users/xingyiyang/Documents/Projects/DeepReasembly/data/swin-tiny_8xb128_in1k_20k20220404_215937.log.json',
      '/Users/xingyiyang/Documents/Projects/DeepReasembly/data/reassemble_10m_cnn_huawei20220407_225938.log.json' ],
-    ['/Users/xingyiyang/Documents/Projects/DeepReasembly/data/resnet101_imagenet_128x8_100e20220405_081427.log.json',
-     '/Users/xingyiyang/Documents/Projects/DeepReasembly/data/swin-small_8xb128_in1k_100e20220405_153841.log.json',
+    ['/Users/xingyiyang/Documents/Projects/DeepReasembly/data/resnet101_imagenet_128x8_20k20220405_081427.log.json',
+     '/Users/xingyiyang/Documents/Projects/DeepReasembly/data/swin-small_8xb128_in1k_20k20220405_153841.log.json',
      '/Users/xingyiyang/Documents/Projects/DeepReasembly/data/reassemble_30m220220406_230840.log.json']
 ]
 
