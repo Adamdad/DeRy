@@ -4,7 +4,7 @@ This repository contains the offical implementation for our paper
 
 **Deep Model Reassembly**
 
-*Submitted to NeurIPS 2022*
+*Xingyi Yang, Zhou Daquan, Songhua Liu, Jingwen Ye, Xinchao Wang*
 
 In this work, we explore a novel knowledge-transfer task, termed as Deep Model Reassembly (*DeRy*), for general-purpose model reuse. *DeRy* first dissect each model into distinctive building blocks, and then selectively reassemble the derived blocks to produce customized networks under both the hardware resource and performance constraints.
 
@@ -21,10 +21,8 @@ In this work, we explore a novel knowledge-transfer task, termed as Deep Model R
         zeroshot_reassembly.py      [Network reassembly by solving integer program]
 
     configs/
-        compute_sim/                [Model configs in the model zoo to 
-                                     compute the feature similarity]
-        dery/XXX/$ModelSize_$DataSet_$BatchSize_$TrainTime_dery_$Optimizor.py
-                                    [Config files for transfer experiments]
+        compute_sim/                [Model configs in the model zoo to compute the feature similarity]
+        dery/XXX/$ModelSize_$DataSet_$BatchSize_$TrainTime_dery_$Optimizor.py   [Config files for transfer experiments]
 
     mmcls/
         datasets/                   [Dataset definitions]
@@ -90,7 +88,7 @@ To run the code for *DeRy, we need to go through 4 steps
 4. [**Fune-tuning**] Train the reassembled model on target data. You may refers to [mmclassification](https://github.com/open-mmlab/mmclassification) for the model training.
 
  
- # Other Resources
+ ## Other Resources
  1. We use several pre-trained models not included in timm and mmcls
    
     | Architecture  | Discription  | From Repo |  Url |  
