@@ -2,7 +2,10 @@
 ## Introduction
 This repository contains the offical implementation for our paper
 
-**Deep Model Reassembly**
+**Deep Model Reassembly** (NeurIPS2022)
+
+[[arxiv](arxiv)] [[project page](https://adamdad.github.io/dery/)]
+ [[code](https://github.com/Adamdad/DeRy)]
 
 *Xingyi Yang, Zhou Daquan, Songhua Liu, Jingwen Ye, Xinchao Wang*
 
@@ -33,16 +36,23 @@ In this work, we explore a novel knowledge-transfer task, termed as Deep Model R
     
 
 ## Installation
-The model training part is based on [mmclassification](https://github.com/open-mmlab/mmclassification). 
+The model training part is based on [mmclassification](https://github.com/open-mmlab/mmclassification). Some of the pre-trained weights are from [timm](https://github.com/rwightman/pytorch-image-models/tree/master/timm).
 
+    # Create python env
     conda create -n open-mmlab python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision -c pytorch -y
     conda activate open-mmlab
+
+    # Install mmcv and mmcls
     pip3 install openmim
     mim install mmcv-full
     git clone https://github.com/open-mmlab/mmclassification.git
     cd mmclassification
     pip3 install -e .
 
+    # Install timm
+    pip3 install timm
+
+**Note**: Our code needs `torch.fx` to support the computational graph extraction from the torch model. Therefore, please install the `torch > 1.10`.
 
 ## Getting Started
 To run the code for *DeRy, we need to go through 4 steps
@@ -88,17 +98,16 @@ To run the code for *DeRy, we need to go through 4 steps
 4. [**Fune-tuning**] Train the reassembled model on target data. You may refers to [mmclassification](https://github.com/open-mmlab/mmclassification) for the model training.
 
  
- ## Other Resources
- 1. We use several pre-trained models not included in timm and mmcls
-   
-    | Architecture  | Discription  | From Repo |  Url |  
-    |---|---|---|---|
-    |  ResNet50 |  Trained on ImageNet with SimCLR loss with 200 epoch | [mmselfsup](https://github.com/open-mmlab/mmselfsup/blob/master/docs/en/model_zoo.md)  | [checkpoint](https://download.openmmlab.com/mmselfsup/simclr/simclr_resnet50_8xb32-coslr-200e_in1k_20220428-46ef6bb9.pth)  |  
-    |  ResNet50 |  Trained on ImageNet with BYOL loss with 200 epoch | [mmselfsup](https://github.com/open-mmlab/mmselfsup/blob/master/docs/en/model_zoo.md)  | [checkpoint](https://download.openmmlab.com/mmselfsup/byol/byol_resnet50_8xb32-accum16-coslr-200e_in1k_20220225-5c8b2c2e.pth)  |  
-    |  ResNet50 |  Trained on ImageNet with MoCov2 loss with 800 epoch  |  [mocov2](https://github.com/facebookresearch/moco) |  [checkpoint](https://dl.fbaipublicfiles.com/moco/moco_checkpoints/moco_v2_800ep/moco_v2_800ep_pretrain.pth.tar) |  
-    |  ResNet50 |  Supervised Trained on iNat2021  |  [newt](https://github.com/visipedia/newt/tree/main/benchmark) |  [checkpoint](https://cornell.box.com/s/bnyhq5lwobu6fgjrub44zle0pyjijbmw) |  
-    | ResNet50  | Trained on the datasets pc-nih-rsna-siim-vin at a 512x512 resolution.  | [torchxray](https://github.com/mlmed/torchxrayvision)  | [checkpoint](https://github.com/mlmed/torchxrayvision/releases/download/v1/pc-nih-rsna-siim-vin-resnet50-test512-e400-state.pt)  |  
-    |  ViT-base |  Trained on ImageNet with Mask Reconstruction Loss  |  [mae](https://github.com/facebookresearch/mae) |  [checkpoint](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth) |  
-    |  ViT-base |  Trained on ImageNet with MoCov3 Loss  |  [mocov3](https://github.com/facebookresearch/moco-v3/blob/main/CONFIG.md) |  [checkpoint](https://dl.fbaipublicfiles.com/moco-v3/vit-b-300ep/vit-b-300ep.pth.tar) |  
-    |  ViT-small |  Trained on ImageNet with MoCov3 Loss  |  [mocov3](https://github.com/facebookresearch/moco-v3/blob/main/CONFIG.md) |  [checkpoint](https://dl.fbaipublicfiles.com/moco-v3/vit-s-300ep/vit-s-300ep.pth.tar) |  
+## Other Resources
+1. We use several pre-trained models not included in timm and mmcls, listed in [Pre-trained](assets/pre-trained.md)
+
+## Citation
+
+    @article{yang2022dery,
+    author    = {Xingyi Yang, Daquan Zhou, Songhua Liu, Jingwen Ye, Xinchao Wang},
+    title     = {Deep Model Reassembly},
+    journal   = {NeurIPS},
+    year      = {2022},
+    }
+
 
