@@ -13,7 +13,7 @@ In this work, we explore a novel knowledge-transfer task, termed as Deep Model R
 
 ![pipeline](assets/pipeline.png)
 
-## File Orgnization
+## 📚 File Orgnization
 
     blocklize/block_meta.py         [Meta Information & Node Defnition]
 
@@ -35,7 +35,7 @@ In this work, we explore a novel knowledge-transfer task, termed as Deep Model R
 
     
 
-## Installation
+## 🛠 Installation
 The model training part is based on [mmclassification](https://github.com/open-mmlab/mmclassification). Some of the pre-trained weights are from [timm](https://github.com/rwightman/pytorch-image-models/tree/master/timm).
 
     # Create python env
@@ -98,10 +98,10 @@ To run the code for *DeRy, we need to go through 4 steps
 4. [**Fune-tuning**] Train the reassembled model on target data. You may refers to [mmclassification](https://github.com/open-mmlab/mmclassification) for the model training.
 
  
-## Other Resources
+## 🚛 Other Resources
 1. We use several pre-trained models not included in timm and mmcls, listed in [Pre-trained](assets/pre-trained.md).
 
-## Citation
+## ✍ Citation
 
     @article{yang2022dery,
         author    = {Xingyi Yang, Daquan Zhou, Songhua Liu, Jingwen Ye, Xinchao Wang},
