@@ -1,5 +1,5 @@
 # Deep Model Reassembly 🧱 -> 🏭
-## Introduction
+## 😎 Introduction
 This repository contains the offical implementation for our paper
 
 **Deep Model Reassembly** (NeurIPS2022)
@@ -54,7 +54,7 @@ The model training part is based on [mmclassification](https://github.com/open-m
 
 **Note**: Our code needs `torch.fx` to support the computational graph extraction from the torch model. Therefore, please install the `torch > 1.10`.
 
-## Getting Started
+## 🚀 Getting Started
 To run the code for *DeRy, we need to go through 4 steps
 
 1. [**Model Zoo Preparation**] Compute the model feature embeddings and representation similarity. We first write model configuration and its weight path, and run
