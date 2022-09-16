@@ -99,7 +99,7 @@ To run the code for *DeRy, we need to go through 4 steps
 
  
 ## Other Resources
-1. We use several pre-trained models not included in timm and mmcls, listed in [Pre-trained](assets/pre-trained.md)
+1. We use several pre-trained models not included in timm and mmcls, listed in [Pre-trained](assets/pre-trained.md).
 
 ## Citation
 
