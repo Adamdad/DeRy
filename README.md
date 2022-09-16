@@ -104,10 +104,10 @@ To run the code for *DeRy, we need to go through 4 steps
 ## Citation
 
     @article{yang2022dery,
-    author    = {Xingyi Yang, Daquan Zhou, Songhua Liu, Jingwen Ye, Xinchao Wang},
-    title     = {Deep Model Reassembly},
-    journal   = {NeurIPS},
-    year      = {2022},
+        author    = {Xingyi Yang, Daquan Zhou, Songhua Liu, Jingwen Ye, Xinchao Wang},
+        title     = {Deep Model Reassembly},
+        journal   = {NeurIPS},
+        year      = {2022},
     }
 
 
