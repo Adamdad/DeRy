@@ -1,4 +1,4 @@
-# Deep Model Reassembly 🧱 -> 🏭
+# Deep Model Reassembly  🏭 -> 🧱 -> 🏭
 ## 😎 Introduction
 This repository contains the offical implementation for our paper
 
