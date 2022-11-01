@@ -4,7 +4,7 @@ This repository contains the offical implementation for our paper
 
 **Deep Model Reassembly** (NeurIPS2022)
 
-[[arxiv](arxiv)] [[project page](https://adamdad.github.io/dery/)]
+[[arxiv](https://arxiv.org/abs/2210.17409)] [[project page](https://adamdad.github.io/dery/)]
  [[code](https://github.com/Adamdad/DeRy)]
 
 *Xingyi Yang, Zhou Daquan, Songhua Liu, Jingwen Ye, Xinchao Wang*
