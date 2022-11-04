@@ -101,6 +101,9 @@ To run the code for *DeRy, we need to go through 4 steps
 ## 🚛 Other Resources
 1. We use several pre-trained models not included in timm and mmcls, listed in [Pre-trained](assets/pre-trained.md).
 
+## Thanks for the support
+[![Stargazers repo roster for @Adamdad/DeRy](https://reporoster.com/stars/Adamdad/DeRy)](https://github.com/Adamdad/DeRy/stargazers)
+
 ## ✍ Citation
 
     @article{yang2022dery,
