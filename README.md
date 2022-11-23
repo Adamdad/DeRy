@@ -27,7 +27,7 @@ In this work, we explore a novel knowledge-transfer task, termed as Deep Model R
         compute_sim/                [Model configs in the model zoo to compute the feature similarity]
         dery/XXX/$ModelSize_$DataSet_$BatchSize_$TrainTime_dery_$Optimizor.py   [Config files for transfer experiments]
 
-    mmcls/
+    mmcls_addon/
         datasets/                   [Dataset definitions]
         models/backbones/dery.py    [DeRy backbone definition]
 
