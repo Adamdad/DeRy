@@ -133,12 +133,8 @@ def init_partition(args):
         node_list = MODEL_BLOCKS[model_name]
         all_node_list[model_name] = node_list
         N = len(node_list)
-        node_per_block = int(np.floor(N/args.K))
         max_node_per_block = int(np.ceil(N/args.K) * (1+args.eps))
         min_node_per_block = 1  # max(N - (args.K-1) * max_node_per_block, 1)
-
-        # print(
-        #     f'[{model_name}]\tMax node: {max_node_per_block}, Min node {min_node_per_block}')
 
         block_split_dict['min_node'] = min_node_per_block
         block_split_dict['max_node'] = max_node_per_block
@@ -241,15 +237,15 @@ def main():
         non_improved = 0
         print(f'Init total Similarity {all_sim}')
         for i in range(args.num_iter):
-            # First Step: Re-Partition
+            # First Step: re-partition
             block_split_dict, _ = repartition(
                 args, block_split_dict, block_sims, all_assignmemt)
 
-            # Second Step: ReCenter
+            # Second Step: compute cluster center
             all_assignmemt = recenter(
                 args, block_split_dict, block_sims, all_assignmemt)
 
-            # Third Step: Reassignment
+            # Third Step: reassignment
             all_assignmemt = reassign(
                 args, block_split_dict, block_sims, all_assignmemt)
 
@@ -262,6 +258,7 @@ def main():
             else:
                 non_improved += 1
 
+            # if no improvement of 20 steps, stop
             if non_improved > 20:
                 print(f'No improvement for {non_improved} iteration')
                 print(
