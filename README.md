@@ -17,24 +17,26 @@ This repository contains the offical implementation for our paper
 
 ## 📚 File Orgnization
 
-    blocklize/block_meta.py         [Meta Information & Node Defnition]
+```
+DeRy/
+├── blocklize/block_meta.py         [Meta Information & Node Defnition]
 
-    similarity/
-        get_rep.py                  [Compute and save the feature embeddings]
-        get_sim.py                  [Compute representation similarity given the saved features]
-        partition.py                [Network partition by cover set problem]
-        zeroshot_reassembly.py      [Network reassembly by solving integer program]
+├── similarity/
+│   ├── get_rep.py                  [Compute and save the feature embeddings]
+│   ├── get_sim.py                  [Compute representation similarity given the saved features]
+|   ├── partition.py                [Network partition by cover set problem]
+|   ├── zeroshot_reassembly.py      [Network reassembly by solving integer program]
 
-    configs/
-        compute_sim/                [Model configs in the model zoo to compute the feature similarity]
-        dery/XXX/$ModelSize_$DataSet_$BatchSize_$TrainTime_dery_$Optimizor.py   [Config files for transfer experiments]
+├── configs/
+|   ├── compute_sim/                [Model configs in the model zoo to compute the feature similarity]
+|   ├── dery/XXX/$ModelSize_$DataSet_$BatchSize_$TrainTime_dery_$Optimizor.py   [Config files for transfer experiments]
 
-    mmcls_addon/
-        datasets/                   [Dataset definitions]
-        models/backbones/dery.py    [DeRy backbone definition]
+├── mmcls_addon/
+|   ├── datasets/                   [Dataset definitions]
+|   ├── models/backbones/dery.py    [DeRy backbone definition]
 
-    third_package/timm              [Modified timm package]
-
+├── third_package/timm              [Modified timm package]
+```
     
 
 ## 🛠 Installation
