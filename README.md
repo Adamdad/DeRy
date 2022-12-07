@@ -88,9 +88,9 @@ To run the code for *DeRy, we need to go through 4 steps
         --eps      $Size_ratio_each_block /     # default=0.2
         --num_iter $Maximum_num_iter_eachrun    # default=200
 
-3. [**Reassemby**] Reassemble the partitioned building blocks into a full model, by solving a integer program. The results are a series of model configs in *.py*.
+3. [**Reassemby**] Reassemble the partitioned building blocks into a full model, by solving a integer program with training-free proxy. The results are a series of model configs in *.py*.
 
-        PYTHONPATH="$PWD" python zeroshot_reassembly.py \
+        PYTHONPATH="$PWD" python simlarity/zeroshot_reassembly.py \
         --path          $Block_partition_file [Saved in the partition step] \
         --C             $Maximum_parameter_num \
         --minC          $Minimum_parameter_num \
