@@ -9,7 +9,7 @@ from mmcv.runner import load_checkpoint
 from torchvision import models
 
 import third_package.timm as mytimm
-from ..builder import BACKBONES, build_backbone
+from mmcls.models.builder import BACKBONES, build_backbone
 
 try:
     from ..utils.feature_extraction import (create_sub_network,
