@@ -64,15 +64,15 @@ To run the code for *DeRy, we need to go through 4 steps
         --out $Feature_path \       # Save feature embeddings in *.pth* files
         [--checkpoint $Checkpoint]  # download checkpoint if any
 
-    The feature embeddings will be saved in *.pth* files in the same $Feat_dictionary. We then load them and compute the feature similarity.
+    All feature embeddings need to be saved in *.pth* files in the same $Feat_dictionary. We then load them and compute the feature similarity.
 
-        PYTHONPATH="$PWD" python compute_sim.py /
+        PYTHONPATH="$PWD" python simlarity/compute_sim.py /
         --feat_path $Feat_dictionary /
         --sim_func $Similarity_function [cka, rbf_cka, lr]
 
     We also need to compute the feature size (input-output feature dimensions). It can be done by running
 
-        PYTHONPATH="$PWD" python count_inout_size.py /
+        PYTHONPATH="$PWD" python simlarity/count_inout_size.py /
         --root $Feat_dictionary
 
 2. [**Network Partition**] Solve the cover set optimization to get the network partition. The results is an assignment file in *.pkl*.
