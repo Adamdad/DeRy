@@ -3,6 +3,8 @@ import warnings
 
 import mmcv
 from packaging.version import parse
+from .datasets import *
+from .models import *
 
 from .version import __version__
 

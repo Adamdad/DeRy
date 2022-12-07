@@ -16,7 +16,7 @@ from mmcls.apis import set_random_seed, train_model
 from mmcls.datasets import build_dataset
 from mmcls.models import build_classifier
 from mmcls.utils import collect_env, get_root_logger
-
+from mmcls_addon import *
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a model')
