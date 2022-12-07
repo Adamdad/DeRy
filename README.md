@@ -52,6 +52,7 @@ The model training part is based on [mmclassification](https://github.com/open-m
     # Install timm
     pip3 install timm
 
+
 **Note**: Our code needs `torch.fx` to support the computational graph extraction from the torch model. Therefore, please install the `torch > 1.10`.
 
 
