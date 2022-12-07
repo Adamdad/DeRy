@@ -12,12 +12,41 @@ from mmcv import Config, DictAction
 from mmcv.runner import get_dist_info, init_dist
 
 from mmcls import __version__
-from mmcls.apis import init_random_seed, set_random_seed, train_model
+from mmcls.apis import set_random_seed, train_model
 from mmcls.datasets import build_dataset
 from mmcls.models import build_classifier
 from mmcls.utils import collect_env, get_root_logger
 from mmcls_addon import *
 
+def init_random_seed(seed=None, device=None):
+    """Initialize random seed.
+    If the seed is not set, the seed will be automatically randomized,
+    and then broadcast to all processes to prevent some potential bugs.
+    Args:
+        seed (int, Optional): The seed. Default to None.
+        device (str): The device where the seed will be put on.
+            Default to 'cuda'.
+    Returns:
+        int: Seed to be used.
+    """
+    if seed is not None:
+        return seed
+    if device is None:
+        device = auto_select_device()
+    # Make sure all ranks share the same random seed to prevent
+    # some potential bugs. Please refer to
+    # https://github.com/open-mmlab/mmdetection/issues/6339
+    rank, world_size = get_dist_info()
+    seed = np.random.randint(2**31)
+    if world_size == 1:
+        return seed
+
+    if rank == 0:
+        random_num = torch.tensor(seed, dtype=torch.int32, device=device)
+    else:
+        random_num = torch.tensor(0, dtype=torch.int32, device=device)
+    dist.broadcast(random_num, src=0)
+    return random_num.item()
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a model')
