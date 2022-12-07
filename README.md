@@ -64,7 +64,7 @@ To run the code for *DeRy, we need to go through 4 steps
         --out $Feature_path \       # Save feature embeddings in *.pth* files
         [--checkpoint $Checkpoint]  # download checkpoint if any
 
-    All feature embeddings need to be saved in *.pth* files in the same $Feat_dictionary. We then load them and compute the feature similarity.
+    All feature embeddings need to be saved in *.pth* files in the same $Feat_dictionary. We then load them and compute the feature similarity. Similarity will be saved as *net1.net2.pkl* files.
 
         PYTHONPATH="$PWD" python simlarity/compute_sim.py /
         --feat_path $Feat_dictionary /
