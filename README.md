@@ -77,6 +77,8 @@ To run the code for *DeRy, we need to go through 4 steps
         PYTHONPATH="$PWD" python simlarity/count_inout_size.py /
         --root $Feat_dictionary
 
+    The results is a json file containing the input-output shape for all network layers, like [MODEL_INOUT_SHAPE.json](https://drive.google.com/file/d/15xDgYOu8Gs866faNHEYI0iHCJkxl-M2h/view?usp=share_link).
+
 2. [**Network Partition**] Solve the cover set optimization to get the network partition. The results is an assignment file in *.pkl*.
 
         python partition.py /
