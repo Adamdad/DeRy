@@ -106,6 +106,7 @@ To run the code for *DeRy, we need to go through 4 steps
 
 4. [**Fune-tuning**] Train the reassembled model on target data. You may refers to [mmclassification](https://github.com/open-mmlab/mmclassification) for the model training.
 
+**Note**: Partitioning and reassembling results may not be identical because of the algorithmatic stochaticity. It may slightly affect the performance.
  
 ## 🚛 Other Resources
 1. We use several pre-trained models not included in timm and mmcls, listed in [Pre-trained](assets/pre-trained.md).
