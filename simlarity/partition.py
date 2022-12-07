@@ -15,7 +15,7 @@ def parse_args():
     parser.add_argument(
         '--sim_path', default='/home/yangxingyi/InfoDrop/simlarity/out/sim_cka/')
     parser.add_argument('--K', type=int, default=4)
-    parser.add_argument('--trial', type=int, default=10)
+    parser.add_argument('--trial', type=int, default=100)
     parser.add_argument(
         '--out', default='/home/yangxingyi/InfoDrop/simlarity/out/assignment')
     parser.add_argument('--eps', type=float, default=0.2)

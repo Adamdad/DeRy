@@ -81,12 +81,12 @@ To run the code for *DeRy, we need to go through 4 steps
 
 2. [**Network Partition**] Solve the cover set optimization to get the network partition. The results is an assignment file in *.pkl*.
 
-        python partition.py /
+        python simlarity/partition.py /
         --sim_path $Feat_similarity_path /
-        --K        $Num_partition /
-        --trial    $Num_repeat_runs /
-        --eps      $Size_ratio_each_block /
-        --num_iter $Maximum_num_iter_eachrun
+        --K        $Num_partition /             # default=4
+        --trial    $Num_repeat_runs /           # default=100
+        --eps      $Size_ratio_each_block /     # default=0.2
+        --num_iter $Maximum_num_iter_eachrun    # default=200
 
 3. [**Reassemby**] Reassemble the partitioned building blocks into a full model, by solving a integer program. The results are a series of model configs in *.py*.
 
