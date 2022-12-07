@@ -59,7 +59,7 @@ To run the code for *DeRy, we need to go through 4 steps
 
 1. [**Model Zoo Preparation**] Compute the model feature embeddings and representation similarity. We first write model configuration and its weight path, and run the configs in `configs/compute_sim`
             
-        PYTHONPATH="$PWD" python simlarity/get_sim.py $Config_file
+        PYTHONPATH="$PWD" python simlarity/get_rep.py $Config_file
 
     The feature embeddings will be saved in *.pth* files in the same $Feat_dictionary. We then load them and compute the feature similarity.
 
