@@ -84,7 +84,7 @@ To run the code for *DeRy, we need to go through 4 steps
         PYTHONPATH="$PWD" python simlarity/partition.py /
         --sim_path $Feat_similarity_path /
         --K        $Num_partition /             # default=4
-        --trial    $Num_repeat_runs /           # default=100
+        --trial    $Num_repeat_runs /           # default=200
         --eps      $Size_ratio_each_block /     # default=0.2
         --num_iter $Maximum_num_iter_eachrun    # default=200
 
