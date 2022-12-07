@@ -5,7 +5,7 @@ import os
 import pickle
 import timm
 import torch
-from compare_functions import (cca, cca_torch, cka_linear, cka_linear_torch,
+from compare_functions import (cca_torch, cka_linear, cka_linear_torch,
                                cka_rbf, cka_rbf_torch, lr_torch)
 from feature_extraction import (create_sub_network,
                                 create_sub_network_transformer,
