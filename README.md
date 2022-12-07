@@ -61,6 +61,7 @@ To run the code for *DeRy, we need to go through 4 steps
             
         PYTHONPATH="$PWD" python simlarity/get_rep.py \
         $Config_file \ # configs in `configs/compute_sim`
+        --out $Feature_path \ # Save feature embeddings in *.pth* files
         [--checkpoint $Checkpoint] # download checkpoint if any
 
     The feature embeddings will be saved in *.pth* files in the same $Feat_dictionary. We then load them and compute the feature similarity.
