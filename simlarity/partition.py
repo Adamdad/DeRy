@@ -13,11 +13,11 @@ from blocklize import MODEL_BLOCKS, MODEL_ZOO
 def parse_args():
     parser = argparse.ArgumentParser(description='mmcls test model')
     parser.add_argument(
-        '--sim_path', default='/home/yangxingyi/InfoDrop/simlarity/out/sim_cka/')
+        '--sim_path', default='./simlarity/out/sim_cka/')
     parser.add_argument('--K', type=int, default=4)
     parser.add_argument('--trial', type=int, default=200)
     parser.add_argument(
-        '--out', default='/home/yangxingyi/InfoDrop/simlarity/out/assignment')
+        '--out', default='./simlarity/out/assignment')
     parser.add_argument('--eps', type=float, default=0.2)
     parser.add_argument('--num_iter', type=int, default=200)
 
