@@ -81,7 +81,7 @@ To run the code for *DeRy, we need to go through 4 steps
 
 2. [**Network Partition**] Solve the cover set optimization to get the network partition. The results is an assignment file in *.pkl*.
 
-        python simlarity/partition.py /
+        PYTHONPATH="$PWD" python simlarity/partition.py /
         --sim_path $Feat_similarity_path /
         --K        $Num_partition /             # default=4
         --trial    $Num_repeat_runs /           # default=100
