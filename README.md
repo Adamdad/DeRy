@@ -59,7 +59,7 @@ The model training part is based on [mmclassification](https://github.com/open-m
 
 
 ## 🚀 Getting Started
-To run the code for *DeRy, we need to go through 4 steps
+To run the code for *DeRy*, we need to go through 4 steps
 
 1. [**Model Zoo Preparation**] Compute the model feature embeddings and representation similarity. We first write model configuration and its weight path, and run the configs in `configs/compute_sim`
             
