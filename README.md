@@ -46,10 +46,8 @@ The model training part is based on [mmclassification](https://github.com/open-m
 
     # Install mmcv and mmcls
     pip3 install openmim
-    mim install mmcv-full
-    git clone https://github.com/open-mmlab/mmclassification.git
-    cd mmclassification
-    pip3 install -e .
+    mim install mmcv-full==1.4.8
+    mim install mmcls==0.18.0
 
     # Install timm
     pip3 install timm
