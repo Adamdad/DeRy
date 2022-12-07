@@ -7,16 +7,19 @@ import time
 import warnings
 
 import mmcv
+import numpy as np
 import torch
-from mmcv import Config, DictAction
-from mmcv.runner import get_dist_info, init_dist
-
+import torch.distributed as dist
 from mmcls import __version__
 from mmcls.apis import set_random_seed, train_model
 from mmcls.datasets import build_dataset
 from mmcls.models import build_classifier
-from mmcls.utils import collect_env, get_root_logger,auto_select_device
+from mmcls.utils import auto_select_device, collect_env, get_root_logger
+from mmcv import Config, DictAction
+from mmcv.runner import get_dist_info, init_dist
+
 from mmcls_addon import *
+
 
 def init_random_seed(seed=None, device=None):
     """Initialize random seed.
