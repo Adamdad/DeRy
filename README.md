@@ -70,6 +70,8 @@ To run the code for *DeRy, we need to go through 4 steps
         --feat_path $Feat_dictionary /
         --sim_func $Similarity_function [cka, rbf_cka, lr]
 
+    Pre-computed similarity on ImageNet for [Linear CKA](https://drive.google.com/drive/folders/1ebSVwZyKeHdmdOdVlFZF6P9_1PzEMs-J?usp=share_link) and [Linear Regression](https://drive.google.com/drive/folders/1rKmV3iQwETKBO3yYlsXFIxrPfAc7VRRb?usp=share_link).
+
     We also need to compute the feature size (input-output feature dimensions). It can be done by running
 
         PYTHONPATH="$PWD" python simlarity/count_inout_size.py /
