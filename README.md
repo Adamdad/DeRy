@@ -126,4 +126,7 @@ To run the code for *DeRy, we need to go through 4 steps
     year      = {2022},
 }
 ```
+# Extensions
+1. Extension on **Parallel Training**: [Deep Model Assembling](https://arxiv.org/abs/2212.04129)
+2. Extension for **Efficient Model Zoo Training**:  [Stitchable Neural Networks](https://arxiv.org/abs/2302.06586)
 
