@@ -7,7 +7,7 @@ This repository contains the offical implementation for our paper
 [[arxiv](https://arxiv.org/abs/2210.17409)] [[project page](https://adamdad.github.io/dery/)]
  [[code](https://github.com/Adamdad/DeRy)]
 
-*Xingyi Yang, Zhou Daquan, Songhua Liu, Jingwen Ye, Xinchao Wang*
+*Xingyi Yang, Daquan Zhou, Songhua Liu, Jingwen Ye, Xinchao Wang*
 
 > In this work, we explore a novel knowledge-transfer task, termed as Deep Model Reassembly (*DeRy*), for general-purpose model reuse. *DeRy* first dissect each model into distinctive building blocks, and then selectively reassemble the derived blocks to produce customized networks under both the hardware resource and performance constraints.
 
@@ -127,6 +127,6 @@ To run the code for *DeRy*, we need to go through 4 steps
 }
 ```
 # Extensions
-1. Extension on **Parallel Training**: [Deep Model Assembling](https://arxiv.org/abs/2212.04129)
+1. Extension on **Efficienr and Parallel Training**: [Deep-Incubation](https://arxiv.org/abs/2212.04129)
 2. Extension for **Efficient Model Zoo Training**:  [Stitchable Neural Networks](https://arxiv.org/abs/2302.06586)
 
