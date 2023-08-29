@@ -179,11 +179,7 @@ def _warn_graph_differences(train_tracer: NodePathTracer, eval_tracer: NodePathT
 
 def _get_leaf_modules_for_ops() -> List[type]:
     members = inspect.getmembers(torchvision.ops)
-    result = []
-    for _, obj in members:
-        if inspect.isclass(obj) and issubclass(obj, torch.nn.Module):
-            result.append(obj)
-    return result
+    return [obj for _, obj in members if inspect.isclass(obj) and issubclass(obj, torch.nn.Module)]
 
 
 def get_graph_node_names(
