@@ -492,10 +492,7 @@ def create_feature_extractor(
                 )
 
         # Remove existing output nodes (train mode)
-        orig_output_nodes = []
-        for n in reversed(graph_module.graph.nodes):
-            if n.op == "output":
-                orig_output_nodes.append(n)
+        orig_output_nodes = [n for n in reversed(graph_module.graph.nodes) if n.op == "output"]
         assert len(orig_output_nodes)
         for n in orig_output_nodes:
             graph_module.graph.erase_node(n)
